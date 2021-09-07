@@ -12,7 +12,6 @@ lev = Levenshtein()
 logging.getLogger().setLevel(logging.INFO)
 
 # DATABASE PARAMETERS
-
 HOST = 'localhost'
 USER = 'root'
 DBPASS = 'root'

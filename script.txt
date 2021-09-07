@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS synonyms;
+CREATE TABLE synonyms (
+            id BIGINT(20) UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
+            ingredient VARCHAR ( 255 ) NOT NULL,
+            sym_type ENUM('identifier','compound','ingredient','translation') NOT NULL,
+            sym_value VARCHAR ( 4095 ) NOT NULL
+        );

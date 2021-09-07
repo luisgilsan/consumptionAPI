@@ -1,6 +1,6 @@
-# Api Sinonimos
+# Api Sinónimos
 
-* En este proyecto se desarrolla una aplicación para procesamiento de igredientes medicos.
+* En este proyecto se desarrolla una aplicación para procesamiento de ingredientes medicos.
 
 ### Configuración 🔧
 
@@ -10,14 +10,14 @@
 ```
 pip install -r requirements.txt
 ```
-* Configure los parametros de la base de datos en el archivo medicalapi/processor/api_processor.py
+* Configura los parametros de la base de datos en el archivo medicalapi/processor/api_processor.py
 
-HOST = servidor
-USER = usuario de la base de datos
-DBPASS = contraseña de la base de datos
-DBNAME = nombre de la base de datos
+HOST = servidor;
+USER = usuario de la base de datos;
+DBPASS = contraseña de la base de datos;
+DBNAME = nombre de la base de datos;
 
-* crea una base de datos mysql con un nombre a su gusto y corre el archivo script.txt en la bd.
+* crea una base de datos mysql con un nombre a tu gusto y corre el archivo script.txt en la bd.
 
 ## Ejecutando el proyecto ⚙️
 
