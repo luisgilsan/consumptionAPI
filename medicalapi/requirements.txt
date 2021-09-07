@@ -1,0 +1,4 @@
+requests==2.26.0
+hermetrics==0.1.13
+mysqlclient==2.0.3
+djangorestframework==3.12.4
